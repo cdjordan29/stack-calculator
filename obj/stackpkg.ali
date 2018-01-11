@@ -1,0 +1,41 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U stackpkg%b		stackpkg.adb		529c895e NE OO PK GE IL
+
+U stackpkg%s		stackpkg.ads		bea847d4 BN EE NE OO PK GE IL
+
+D stackpkg.ads		20170417200622 bea847d4 stackpkg%s
+D stackpkg.adb		20170417200628 ec34ce8a stackpkg%b
+D system.ads		20160516092930 2da59038 system%s
+X 1 stackpkg.ads
+11i9 Size{positive} 37r42 2|29r25
+13+14 ItemType 27r32 33r44 37r51 2|38r26 70r37
+15k9*StackPkg 11z9 13z14 37E14 44l5 44e13 2|8b14 78l5 78t13
+17R14*Stack 23r31 24r31 27r53 30r36 33r30 39c14 42e19 2|16r25 27r24 38r47
+. 55r31 70r23
+19X9*Stack_Empty 2|58r21 73r18
+20X9*Stack_Full 2|41r18
+23V18*isEmpty{boolean} 23>27 2|16b13 19l8 19t15 57s15 72s12
+23r27 s{17R14} 2|16b21 18r17
+24V18*isFull{boolean} 24>27 2|27b13 30l8 30t14 40s10
+24r27 s{17R14} 2|27b20 29r17
+27U19*push 27>25 27=42 2|38b14 46l10 46t14
+27*25 item{13+14} 2|38b19 44r33
+27r42 s{17R14} 2|38b36 40r17 43m12 43r21 44m12 44r23
+30U19*pop 30=25 2|55b16 62l10 62t13
+30r25 s{17R14} 2|55b20 57r23 60m12 60r21
+33V19*top{13+14} 33>26 2|70b15 76l10 76t13
+33r26 s{17R14} 2|70b19 72r20 75r16 75r27
+37A14 StackElements(13+14)<integer> 40r28
+40a17 Elements{37A14} 2|44m14 75r18
+41i17 Top{natural} 2|18r19 29r19 43m14 43r23 44r25 60m14 60r23 75r29
+

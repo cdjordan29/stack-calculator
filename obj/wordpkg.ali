@@ -1,0 +1,147 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U wordpkg%b		wordpkg.adb		35baf4b4 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U wordpkg%s		wordpkg.ads		bbc3ddba EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-charac.ads		20160516092930 2d3ec45b ada.characters%s
+D a-chlat1.ads		20160516092930 66457d31 ada.characters.latin_1%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-finali.ads		20160516092930 bf4f806b ada.finalization%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-string.ads		20160516092930 90ac6797 ada.strings%s
+D a-strmap.ads		20160516092930 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20160516092928 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D system.ads		20160516092930 2da59038 system%s
+D s-atocou.ads		20160516092932 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092930 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-finmas.ads		20160516092930 7811a767 system.finalization_masters%s
+D s-finroo.ads		20160516092930 4ff27390 system.finalization_root%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-secsta.ads		20160516092930 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20160516092928 b16154c2 system.storage_pools%s
+D s-stposu.ads		20160516092926 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20160516092926 aedef97e system.stream_attributes%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+D wordpkg.ads		20170417184914 83ae286e wordpkg%s
+D wordpkg.adb		20170417200616 b1e8fdcb wordpkg%b
+X 1 ada.ads
+16K9*Ada 19e8 35|12r6 12r23 36|11r6 11r23 12r6 12r33
+X 8 a-string.ads
+16K13*Strings 35e16 36|12r10 12r37
+X 10 a-strunb.ads
+76K21*Unbounded 489e26 36|12w18 12r45
+X 12 a-textio.ads
+49K13*Text_IO 471e16 35|12w10 12r27 36|11w10 11r27
+52P9*File_Type 35|43r26 47r26 36|120r34 148r26 197r26
+117V13*Standard_Input{52P9} 36|188s12
+118V13*Standard_Output{52P9} 36|212s12
+168U14*Skip_Line 36|128s13
+183V13*End_Of_File{boolean} 36|125s20 156s23
+205U14*Get 36|133s13 162s13
+207U14*Put 36|200s10
+210U14*Look_Ahead 36|126s10 157s13
+X 35 wordpkg.ads
+13K9*WordPkg 55E4 61l5 61e12 36|15b14 215l5 215t12
+15R9*word 20r44 23r28 31r26 32r27 33r25 34r26 35r26 43r48 44r30 47r44 48r26
+. 51r28 56c9 59e14 36|23r28 39r44 40r16 53r28 76r26 82r27 94r25 99r26 104r26
+. 148r48 186r30 197r44 210r26
+17X4*WordTooLong 36|175r19
+20V13*New_Word{15R9} 20>22 36|39b13 45l8 45t16
+20a22 Item{string} 36|39b22 42r25 42r41 43r24
+23V13*Length{natural} 23>21 36|53b13 56l8 56t14 199s19
+23r21 Item{15R9} 36|53b21 55r14
+26V13*Max_Word_Size{positive} 36|64b13 67l8 67t21
+31V14*"="{boolean} 31>19 31>22 36|76b14 80l9 80t11 96s32
+31r19 X{15R9} 36|76b19 78r14 79r9 79r22
+31r22 Y{15R9} 36|76b22 78r25 79r34 79r47
+32V14*"<="{boolean} 32>20 32>23 36|82b14 92l9 92t12 96s16 106s21
+32r20 X{15R9} 36|82b20 84r32 85r13 87r16 91r14
+32r23 Y{15R9} 36|82b23 84r42 85r28 87r31 91r26
+33V14*"<"{boolean} 33>18 33>21 36|94b14 97l9 97t11 101s21
+33r18 X{15R9} 36|94b18 96r14 96r30
+33r21 Y{15R9} 36|94b21 96r19 96r34
+34V14*">="{boolean} 34>19 34>22 36|99b14 102l9 102t12
+34r19 X{15R9} 36|99b19 101r19
+34r22 Y{15R9} 36|99b22 101r23
+35V14*">"{boolean} 35>19 35>22 36|104b14 107l9 107t11
+35r19 X{15R9} 36|104b19 106r19
+35r22 Y{15R9} 36|104b22 106r24
+43U14*Get 43>19 43<37 36|148b14 178l8 178t11 188s7
+43p19 File{12|52P9} 36|148b19 154r24 156r36 157r25 162r18
+43r37 Item{15R9} 36|148b37 153m7 165r16 170m16 170r31 171m16 171r29
+44U14*Get 44<19 36|186b14 189l8 189t11
+44r19 Item{15R9} 36|186b19 188m28
+47U14*Put 47>19 47>37 36|197b14 202l8 202t11 212s7
+47p19 File{12|52P9} 36|197b19 200r15
+47r37 Item{15R9} 36|197b37 199r26 200r21
+48U14*Put 48>19 36|210b14 213l8 213t11
+48r19 Item{15R9} 36|210b19 212r29
+51V13*to_string{string} 51>24 36|23b13 31l8 31t17
+51r24 w{15R9} 36|23b24 24r20 26r21 27r18
+55i4 MaxWordSize{natural} 57r26 36|66r14 165r30
+57a7*Letters{string} 36|27r20 42m14 79r11 79r36 85r15 85r30 87r18 87r33 171m21
+. 200r26
+58i7*Length{natural} 36|24r22 26r23 43m14 55r19 78r16 78r27 79r24 79r49 84r34
+. 84r44 91r16 91r28 153m12 165r21 170m21 170r36 171r34
+X 36 wordpkg.adb
+24a7 s{string} 27m10 30r14
+26i11 i{integer} 27r12 27r28
+40r7 A_Word{35|15R9} 42m7 43m7 44r14
+84i11 I{integer} 85r23 85r38 87r26 87r41
+120V13 Another_Word{boolean} 120b13 120>27 137l8 137t20 154s10
+120p27 File{12|52P9} 125r33 126r22 128r24 133r18
+121e7 C{character} 126m28 130r16 130r29 133m24
+122b7 End_Line{boolean} 126m31 127r13
+149e7 C{character} 157m31 160r23 160r39 162m24 171r45
+150b7 End_Line{boolean} 157m34 159r23
+151b7 TooLong{boolean} 166m16 169r20 174r13
+199i11 I{integer} 200r34
+

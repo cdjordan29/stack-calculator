@@ -1,0 +1,204 @@
+V "GNAT Lib v2016"
+A -gnatA
+A -mtune=generic
+A -march=pentium4
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U calcpkg%b		calcpkg.adb		f34ab57c OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W stackpkg%s		stackpkg.adb		stackpkg.ali  AD
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.exp_int%s	s-expint.adb		s-expint.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+W wordpkg%s		wordpkg.adb		wordpkg.ali
+
+U calcpkg%s		calcpkg.ads		e3077f9f EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W wordpkg%s		wordpkg.adb		wordpkg.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-charac.ads		20160516092930 2d3ec45b ada.characters%s
+D a-chlat1.ads		20160516092930 66457d31 ada.characters.latin_1%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-finali.ads		20160516092930 bf4f806b ada.finalization%s
+D a-ioexce.ads		20160516092926 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
+D a-string.ads		20160516092930 90ac6797 ada.strings%s
+D a-strmap.ads		20160516092930 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20160516092928 3f91d4c5 ada.strings.unbounded%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-unccon.ads		20160516092930 f9eb8f06 ada.unchecked_conversion%s
+D calcpkg.ads		20170417211154 5f388334 calcpkg%s
+D calcpkg.adb		20170417212440 a919ac26 calcpkg%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
+D stackpkg.ads		20170417200622 bea847d4 stackpkg%s
+D stackpkg.adb		20170417200628 ec34ce8a stackpkg%b
+D system.ads		20160516092930 2da59038 system%s
+D s-atocou.ads		20160516092932 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20160516092930 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092930 54135002 system.exception_table%s
+D s-expint.ads		20160516092930 192336fc system.exp_int%s
+D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
+D s-finmas.ads		20160516092930 7811a767 system.finalization_masters%s
+D s-finroo.ads		20160516092930 4ff27390 system.finalization_root%s
+D s-imgint.ads		20160516092928 02dbe0c2 system.img_int%s
+D s-memory.ads		20160516092930 597d6634 system.memory%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-secsta.ads		20160516092930 86a2856d system.secondary_stack%s
+D s-soflin.ads		20160516092928 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092930 09bd3940 system.standard_library%s
+D s-stalib.adb		20160516092926 f2fe2716 system.standard_library%b
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20160516092928 b16154c2 system.storage_pools%s
+D s-stposu.ads		20160516092926 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20160516092926 aedef97e system.stream_attributes%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-valint.ads		20160516092930 48a52a3f system.val_int%s
+D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
+D wordpkg.ads		20170417184914 83ae286e wordpkg%s
+X 1 ada.ads
+16K9*Ada 19e8 14|10r6 10r33 15|1r6 1r23
+X 8 a-string.ads
+16K13*Strings 35e16 14|10r10 10r37
+X 10 a-strunb.ads
+76K21*Unbounded 489e26 14|10w18 10r45
+79R9*Unbounded_String<5|43R9> 473e14 14|34r19
+82r4*Null_Unbounded_String{79R9} 15|26r23
+100V13*To_String{string} 15|274s14
+123V14*"&"{79R9} 15|99s39 99s61 120s39 120s61 140s39 140s61 160s39 160s61
+. 180s39 180s61 200s39 200s61 207s39 207s61 225s39 225s61 250s39 250s61
+X 12 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 1r27
+242U14*Put 15|50s10
+263U14*Put_Line 15|240s10 263s10
+X 14 calcpkg.ads
+12K9*calcpkg 33E9 39l5 39e12 15|10b14 299l5 299t12
+14R9*Calculation 16r27 19r25 20r21 23r26 26r23 29r23 33c9 37e14 15|23r27
+. 85r25 261r21 272r26 283r23 294r23
+16U14*clear 16<20 15|23b14 27l8 27t13 241s10
+16r20 c{14R9} 15|23b20 25m7 26m7
+19U14*get 19<18 15|85b14 253l8 253t11
+19r18 c{14R9} 15|85b18 99m10 99r26 120m10 120r26 140m10 140r26 160m10 160r26
+. 180m10 180r26 200m10 200r26 207m10 207r26 225m10 225r26 238m10 240r29 240r41
+. 241m16 244m10 250m10 250r26
+20U14*put 20>18 15|261b14 264l8 264t11
+20r18 c{14R9} 15|261b18 263r29 263r41
+23V13*to_string{string} 23>23 15|240s19 263s19 272b13 275l8 275t17
+23r23 c{14R9} 15|272b23 274r24
+26V13*length{natural} 26>20 15|283b13 286l8 286t14
+26r20 c{14R9} 15|283b20 285r14
+29V13*Result{integer} 29>20 15|240s34 263s34 294b13 297l8 297t14
+29r20 c{14R9} 15|294b20 296r14
+34r7*expression{10|79R9} 15|26m9 99m12 99r28 120m12 120r28 140m12 140r28
+. 160m12 160r28 180m12 180r28 200m12 200r28 207m12 207r28 225m12 225r28 250m12
+. 250r28 274r26
+35i7*length{natural} 15|244m12 285r16
+36i7*answer{integer} 15|25m9 238m12 296r16
+X 15 calcpkg.adb
+13E9 Operator 13e69 16r49 36r66 64r28 90r15
+13n22 add{13E9} 39r16 68r17 102r18 103r25 104r18
+13n27 sub{13E9} 41r18 68r28 123r18 124r25 125r18
+13n32 mul{13E9} 43r18 70r17 143r18 144r25 145r18
+13n37 div{13E9} 45r18 70r28 163r18 164r25 165r18
+13n42 exp{13E9} 47r18 72r17 183r18 184r25 185r18
+13n47 lParen{13E9} 66r14 202r15 209r33
+13n55 rParen{13E9}
+13n63 equal{13E9}
+16K12 Operator_Package[18|15] 18r25 21r14
+17K12 Operand_Package[18|15] 18r8 20r15
+20r4 num_Stack{18|17R14[17]} 53m20 53r20 107r33 108m17 108r17 109r33 110m17
+. 110r17 127r33 128m17 128r17 129r33 130m17 130r17 147r33 148m17 148r17 149r33
+. 150m17 150r17 167r33 168m17 168r17 169r33 170m17 170r17 187r33 188m17 188r17
+. 189r33 190m17 190r17 210r33 211m17 211r17 212r33 213m17 213r17 228r33 229m17
+. 229r17 230r33 231m17 231r17 238r26 239m14 239r14 249m24 249r24
+21r4 op_Stack{18|17R14[16]} 101r21 102m23 102r23 103r45 104m23 104r23 111r27
+. 112m17 112r17 122r21 123m23 123r23 124r45 125m23 125r23 131r27 132m17 132r17
+. 142r21 143m23 143r23 144r45 145m23 145r23 151r27 152m17 152r17 162r21 163m23
+. 163r23 164r45 165m23 165r23 171r27 172m17 172r17 182r21 183m23 183r23 184r45
+. 185m23 185r23 191r27 192m17 192r17 202m23 202r23 209r20 214r27 215m17 215r17
+. 220m14 220r14 227r28 232r27 233m17 233r17
+36U14 evaluate 36b14 36>23 36>41 36>59 55l8 55t16 114s13 134s13 154s13 174s13
+. 194s13 217s13 235s13
+36i23 num1{integer} 40r20 42r27 44r20 46r27 48r28
+36i41 num2{integer} 40r27 42r20 44r27 46r20 48r20
+36e59 op{13E9} 39r10 41r13 43r13 45r13 47r13
+37i7 result{integer} 40m10 42m10 44m10 46m10 48m10 53r12
+64V13 findPrec{integer} 64b13 64>22 77l8 77t16 103s16 103s32 124s16 124s32
+. 144s16 144s32 164s16 164s32 184s16 184s32
+64e22 o{13E9} 66r10 68r13 68r24 70r13 70r24 72r13
+86r7 tempWord{45|15R9} 92m11 97r20 99r51 118r23 120r51 138r23 140r51 158r23
+. 160r51 178r23 180r51 198r23 200r51 205r23 207r51 223r23 225r51 243r23 248r45
+. 250r51
+87i7 tempNum{integer} 248m10 249r15
+88i7 tempEvalnum1{integer} 107m13 114r22 127m13 134r22 147m13 154r22 167m13
+. 174r22 187m13 194r22 210m13 217r22 228m13 235r22
+89i7 tempEvalnum2{integer} 109m13 114r36 129m13 134r36 149m13 154r36 169m13
+. 174r36 189m13 194r36 212m13 217r36 230m13 235r36
+90e7 tempOP{13E9} 111m13 114r50 131m13 134r50 151m13 154r50 171m13 174r50
+. 191m13 194r50 214m13 217r50 232m13 235r50
+X 18 stackpkg.ads
+15k9*StackPkg 15|3w6 16r36 17r35 18|44e13
+17R14*Stack 15|20r31[17] 21r31[16]
+23V18*isEmpty{boolean} 15|101s13[16] 122s13[16] 142s13[16] 162s13[16] 182s13[16]
+. 227s20[16]
+27U19*push 15|53s7[17] 102s13[16] 104s13[16] 123s13[16] 125s13[16] 143s13[16]
+. 145s13[16] 163s13[16] 165s13[16] 183s13[16] 185s13[16] 202s10[16] 249s10[17]
+30U19*pop 15|108s13[17] 110s13[17] 112s13[16] 128s13[17] 130s13[17] 132s13[16]
+. 148s13[17] 150s13[17] 152s13[16] 168s13[17] 170s13[17] 172s13[16] 188s13[17]
+. 190s13[17] 192s13[16] 211s13[17] 213s13[17] 215s13[16] 220s10[16] 229s13[17]
+. 231s13[17] 233s13[16] 239s10[17]
+33V19*top{15|13E9} 15|103s41[16] 107s29[17] 109s29[17] 111s23[16] 124s41[16]
+. 127s29[17] 129s29[17] 131s23[16] 144s41[16] 147s29[17] 149s29[17] 151s23[16]
+. 164s41[16] 167s29[17] 169s29[17] 171s23[16] 184s41[16] 187s29[17] 189s29[17]
+. 191s23[16] 209s16[16] 210s29[17] 212s29[17] 214s23[16] 228s29[17] 230s29[17]
+. 232s23[16] 238s22[17]
+X 20 system.ads
+67M9*Address
+X 30 s-memory.ads
+53V13*Alloc{20|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{20|67M9} 105i<c,__gnat_realloc>22
+X 36 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 45 wordpkg.ads
+13K9*WordPkg 14|9w6 15|2w6 2r19 45|61e12
+15R9*word 15|86r17 45|59e14
+44U14*Get 15|92s7
+51V13*to_string{string} 15|97s10 99s41 118s13 120s41 138s13 140s41 158s13
+. 160s41 178s13 180s41 198s13 200s41 205s13 207s41 223s13 225s41 243s13 248s35
+. 250s41
+

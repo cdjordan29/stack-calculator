@@ -1,0 +1,4 @@
+project program_four is 
+   for main use ("calc.adb");
+   for object_dir use "obj";
+end program_four;

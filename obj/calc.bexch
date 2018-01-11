@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__calc.o
+[PROJECT FILES]
+G:\Radford Classes\itec320 - Ada\Program4\program_four.gpr
+20170412165230
+[BOUND OBJECT FILES]
+G:\Radford Classes\itec320 - Ada\Program4\obj\stackpkg.o
+G:\Radford Classes\itec320 - Ada\Program4\obj\wordpkg.o
+G:\Radford Classes\itec320 - Ada\Program4\obj\calcpkg.o
+G:\Radford Classes\itec320 - Ada\Program4\obj\calc.o
+[GENERATED SOURCE FILES]
+b__calc.ads
+b__calc.adb
+b__calc.ali
+[RESULTING OPTIONS]
+-LG:\Radford Classes\itec320 - Ada\Program4\obj\
+-LG:\Radford Classes\itec320 - Ada\Program4\obj\
+-LC:/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/
+-static
+-static-libgcc
+C:/gnat/2016/lib/gcc/i686-pc-mingw32/4.9.4/adalib/libgnat.a
+-Wl,--stack=0x2000000

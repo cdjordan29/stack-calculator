@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 59" line=" 7" >
+      <vfs_project>G:\Radford Classes\itec320 - Ada\Program4\program_four.gpr</vfs_project>
+      <vfs_file>G:\Radford Classes\itec320 - Ada\Program4\wordpkg.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 206" >
+      <vfs_project>G:\Radford Classes\itec320 - Ada\Program4\program_four.gpr</vfs_project>
+      <vfs_file>G:\Radford Classes\itec320 - Ada\Program4\wordpkg.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 6" >
+      <vfs_project>G:\Radford Classes\itec320 - Ada\Program4\program_four.gpr</vfs_project>
+      <vfs_file>G:\Radford Classes\itec320 - Ada\Program4\stackpkg.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 4" >
+      <vfs_project>G:\Radford Classes\itec320 - Ada\Program4\program_four.gpr</vfs_project>
+      <vfs_file>G:\Radford Classes\itec320 - Ada\Program4\stackpkg.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 16" >
+      <vfs_project>G:\Radford Classes\itec320 - Ada\Program4\program_four.gpr</vfs_project>
+      <vfs_file>G:\Radford Classes\itec320 - Ada\Program4\calcpkg.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 7" line=" 246" >
+      <vfs_project>G:\Radford Classes\itec320 - Ada\Program4\program_four.gpr</vfs_project>
+      <vfs_file>G:\Radford Classes\itec320 - Ada\Program4\calcpkg.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
